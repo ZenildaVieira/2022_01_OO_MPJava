@@ -72,7 +72,7 @@ public class NomeMedicamento implements NomeCaracteristica {
 		// usado por ControleCadastroNomeCaracteristica
 		// usado por ControleCadastroEpisodio
 		int indNomeCaracteristica = BancoDeDadosEpisodio.getQtdBDNomeMedic();
-		BancoDeDadosEpisodio.setBdNomeMedic(new NomeMedicamento(nomeMedic),
+		BancoDeDadosEpisodio.setBdNomeMedic(new NomeMedicamento(nomeCaracteristica),
 				indNomeCaracteristica);
 		BancoDeDadosEpisodio.setQtdBDNomeMedic(indNomeCaracteristica + 1);
 		return indNomeCaracteristica;

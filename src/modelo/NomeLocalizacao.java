@@ -71,7 +71,7 @@ public class NomeLocalizacao implements NomeCaracteristica {
 		// usado por ControleCadastroNomeCaracteristica
 		// usado por ControleCadastroEpisodio
 		int indNomeCaracteristica = BancoDeDadosEpisodio.getQtdBDNomeLocal();
-		BancoDeDadosEpisodio.setBdNomeLocal(new NomeLocalizacao(nomeLocal),
+		BancoDeDadosEpisodio.setBdNomeLocal(new NomeLocalizacao(nomeCaracteristica),
 				indNomeCaracteristica);
 		BancoDeDadosEpisodio.setQtdBDNomeLocal(indNomeCaracteristica + 1);
 		return indNomeCaracteristica;

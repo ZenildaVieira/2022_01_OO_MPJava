@@ -71,7 +71,7 @@ public class NomeTipoDor implements NomeCaracteristica {
 		// usado por ControleCadastroNomeCaracteristica
 		// usado por ControleCadastroEpisodio
 		int indNomeCaracteristica = BancoDeDadosEpisodio.getQtdBDNomeTipoDor();
-		BancoDeDadosEpisodio.setBdNomeTipoDor(new NomeTipoDor(nomeTipoDor),
+		BancoDeDadosEpisodio.setBdNomeTipoDor(new NomeTipoDor(nomeCaracteristica),
 				indNomeCaracteristica);
 		BancoDeDadosEpisodio.setQtdBDNomeTipoDor(indNomeCaracteristica + 1);
 		return indNomeCaracteristica;
